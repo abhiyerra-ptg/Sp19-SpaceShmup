@@ -81,6 +81,17 @@ public class Enemy_4 : Enemy {
     }
 
     //These two functions find a Part in parts based on name or GameObject
+    Part FindPart(string n)
+    {
+        foreach(Part prt in parts)
+        {
+            if(prt.name == n)
+            {
+                return (prt);
+            }
+        }
+        return (null);
+    }
     Part FindPart(GameObject go)
     {
         foreach (Part prt in parts)
