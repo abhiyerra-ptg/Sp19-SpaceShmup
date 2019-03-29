@@ -41,8 +41,5 @@ public class Enemy_3 : Enemy {
         pos = (1 - u) * p01 + u * p12;
     }
 
-    // Update is called once per frame
-    void Update () {
-		
-	}
+   
 }

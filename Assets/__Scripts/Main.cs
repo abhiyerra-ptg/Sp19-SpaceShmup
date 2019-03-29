@@ -104,13 +104,5 @@ public class Main : MonoBehaviour {
         return (new WeaponDefinition());
     }
    
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+  
 }

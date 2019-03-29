@@ -39,6 +39,6 @@ public class Enemy_2 : Enemy {
         
     }
 
-    // Update is called once per frame
+    
     
 }
